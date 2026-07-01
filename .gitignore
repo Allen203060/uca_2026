@@ -1,0 +1,2 @@
+# used to add directories or files which you dont want to commit to your repository.
+.env
