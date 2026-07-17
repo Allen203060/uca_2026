@@ -35,7 +35,12 @@ char* reverse_string(char *str) {
 
 int main() {
     char str[100];
+
     printf("Enter the string: ");
-    scanf("%99s", str);
+    fgets(str, sizeof(str), stdin);
+    str[strcspn(str, "\n")] = '\0';
+
     printf("Reversed String %s\n", reverse_string(str));
+
+    return 0;
 }
