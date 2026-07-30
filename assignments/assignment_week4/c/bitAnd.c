@@ -7,5 +7,5 @@ int bitAnd(int x, int y) {
 int main() {
     int x, y;
     scanf("%d %d", &x, &y);
-    printf("Custom operator: AND -> %d\n", bitAnd(6, 5));
+    printf("Custom operator: AND -> %d\n", bitAnd(x, y));
 }
